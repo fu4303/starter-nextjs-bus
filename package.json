@@ -22,8 +22,8 @@
     "faunadb": "4.0.0",
     "next": "10.0.4",
     "next-auth": "3.2.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-query": "3.5.5",
     "slugify": "1.4.6",
     "tabler-icons": "1.35.0"
