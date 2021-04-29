@@ -1,0 +1,36 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@headlessui/react"
+    versions:
+    - 0.3.2
+    - 1.0.0
+    - 1.1.0
+  - dependency-name: react-query
+    versions:
+    - 3.13.10
+    - 3.13.11
+    - 3.13.12
+    - 3.13.4
+    - 3.13.5
+    - 3.13.6
+    - 3.13.7
+    - 3.13.8
+  - dependency-name: eslint-plugin-jest
+    versions:
+    - 24.3.3
+    - 24.3.4
+    - 24.3.5
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+    - 4.0.2
+  - dependency-name: "@types/next-auth"
+    versions:
+    - 3.13.0
